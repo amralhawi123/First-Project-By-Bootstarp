@@ -187,7 +187,11 @@ content: attr(data-work);
 .footer .youtube{
     background-color: #ff0000;
 }
-.footer .links ul li:hover{
-    background-color: var(--green-color);
-}
+
 /* end footer */
+.our-work .row{
+    display: none;
+}
+.row.open{
+    display: flex;
+}
